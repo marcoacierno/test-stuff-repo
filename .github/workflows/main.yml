@@ -12,4 +12,4 @@ jobs:
           python-version: "3.9.1"
       - run: pip install poetry
       - run: pip install git+https://github.com/autopub/autopub.git@add-contributors-names-to-changelog
-      - run: autopub release
+      - run: autopub deploy
