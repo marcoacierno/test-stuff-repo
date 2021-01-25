@@ -1,0 +1,15 @@
+name: Test pub
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.9.1"
+      - run: pip install poetry
+      - run: pip install git+https://github.com/autopub/autopub.git@add-contributors-names-to-changelog
+      - run: autopub release
