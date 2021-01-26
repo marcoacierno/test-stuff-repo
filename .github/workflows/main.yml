@@ -16,7 +16,6 @@ jobs:
       - run: pip install poetry
       - run: pip install httpx
       - run: pip install git+https://github.com/autopub/autopub.git@add-contributors-names-to-changelog
-      - run: poetry version patch
       - run: autopub check
       - run: autopub prepare
         env:
