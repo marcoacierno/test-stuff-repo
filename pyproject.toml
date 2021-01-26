@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "test-stuff-repo"
-version = "0.1.15"
+version = "0.2.0"
 description = ""
 authors = ["Marco Acierno <marcoaciernoemail@gmail.com>"]
 

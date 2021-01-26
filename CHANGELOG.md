@@ -1,7 +1,8 @@
 
-0.1.15 - 2021-01-26
--------------------
+0.2.0 - 2021-01-26
+------------------
 
-Coooooooooooooooooooooooooosa?
-[Marco Acierno](https://github.com/marcoacierno) [PR #2](https://github.com/marcoacierno/test-stuff-repo/pull/2/)
+Hello? 🤳
+
+[Marco Acierno](https://github.com/marcoacierno) [PR #3](https://github.com/marcoacierno/test-stuff-repo/pull/3/)
 
