@@ -6,7 +6,6 @@ authors = ["Marco Acierno <marcoaciernoemail@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-autopub = { path = "/home/marco/projects/autopub/" }
 httpx = "^0.16.1"
 
 [tool.poetry.dev-dependencies]
