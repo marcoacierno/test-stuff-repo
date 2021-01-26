@@ -19,3 +19,5 @@ jobs:
       - run: poetry version patch
       - run: autopub check
       - run: autopub deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
