@@ -18,6 +18,9 @@ jobs:
       - run: pip install git+https://github.com/autopub/autopub.git@add-contributors-names-to-changelog
       - run: poetry version patch
       - run: autopub check
-      - run: autopub deploy
+      - run: autopub prepare
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: autopub commit
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
