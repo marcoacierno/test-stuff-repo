@@ -1,8 +1,8 @@
 
-0.2.0 - 2021-01-26
+0.2.1 - 2021-01-26
 ------------------
 
-Hello? 🤳
+Another release
 
-[Marco Acierno](https://github.com/marcoacierno) [PR #3](https://github.com/marcoacierno/test-stuff-repo/pull/3/)
+[Marco Acierno](https://github.com/marcoacierno) [PR #4](https://github.com/marcoacierno/test-stuff-repo/pull/4/)
 
